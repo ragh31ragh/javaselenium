@@ -28,3 +28,8 @@ public class coreJavabasics {
 I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\coreJavabasics.java
 /coreJavaLearningtwofive/src/coreJavaLearningtwofive/coreJavabasics.java
 
+22:Introduction to for loop to iterate over array of strings and integers 
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\coreJavabasics.java
+/coreJavaLearningtwofive/src/coreJavaLearningtwofive/coreJavabasics.java
+
+
