@@ -93,3 +93,44 @@ do executes first and then evaluates
 
 285 :Nested loops 
 I:\Learnings\Raghavendra\gitdemo\javaselenium\src\demoPack\NestedLoops.java
+
+286 : printing pyramid triangle 
+1 2 3 4 
+5 6 7 
+8 9 
+10 
+
+package demoPack;
+
+public class interview_pyramid_printing_triangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int k = 1 ;
+		for ( int i = 0; i < 4 ;i++) {
+			//System.out.println("Outer loop started ");
+
+			for (int j = 1 ; j <=  4-i ; j++ ) {
+				//System.out.println("Inner loop ");
+				System.out.print(k);
+				System.out.print("\t");
+				k++ ;
+		}
+			System.out.println("");
+		}
+
+	}
+
+}
+
+
+1	2	3	4	
+5	6	7	
+8	9	
+10	
+
+1
+2 3 
+4 5 6 
+7 8 9 10 
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\demoPack\pyramid_excercise2.java
