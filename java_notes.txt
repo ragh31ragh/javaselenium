@@ -36,7 +36,60 @@ I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\coreJa
 
 I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\coreJavaBrushup2.java
 
+25 : What is arraylist and differences between Arraylist and arrays
 
+Arraylist = we can dynamically grow the size of array
+new operator will allocate memory 
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\coreJavaBrushup2.java
 
+26: Iterating over array and arraylists and its related methods 
+array means length
+arraylist means size 
+we can convert array to array list 
+array - static size 
+array_list  - dynamic size 
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\coreJavaBrushup2.java
 
+27.Strings in Java - How to declare strings and important string methods 
+string is an object in java 
+String is an object that represents sequence of characters 
+string literal or new object 
+String a = "Raghavendra automation"
+String a1 = "Raghavendra automation"
+same reference here 
+String abc = new String("Welcome");
+String abc2 = new String("Welcome" )
 
+2 types of declaration :
+literal 
+and using new keyword 
+
+new creates new object in memory space
+literal it refers to the same object 
+
+printing string in reverse
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\coreJavaBrushup3Strings.java
+
+28.How to create methods and access methods using Java class objects 
+Set of lines which we will repeatedly call 
+Method should be written outside main block 
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\MethodsDemo.java
+
+static will move method to class level 
+from public 
+Method cannot be created inside main block 
+Method is like functions in python.
+
+282 : while loop :
+while (boolean){
+}
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\whileDemo.java
+
+283 : do while loop 
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\whileDemo.java
+
+do executes first and then evaluates 
+1 loop execution is guaranteed 
+
+285 :Nested loops 
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\demoPack\NestedLoops.java
