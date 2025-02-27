@@ -32,4 +32,7 @@ I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\coreJa
 I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\coreJavabasics.java
 /coreJavaLearningtwofive/src/coreJavaLearningtwofive/coreJavabasics.java
 
+23.Enhanced for loop declaration and using conditional statements inside the loops
+
+
 
