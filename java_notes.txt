@@ -134,3 +134,17 @@ public class interview_pyramid_printing_triangle {
 4 5 6 
 7 8 9 10 
 I:\Learnings\Raghavendra\gitdemo\javaselenium\src\demoPack\pyramid_excercise2.java
+
+1
+1 2 
+1 2 3 
+1 2 3 4 
+
+3 
+6 9 
+12 15 18 
+
+3	
+6	9	
+12	15	18	
+21	24	27	30
