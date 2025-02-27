@@ -1,6 +1,8 @@
 package coreJavaLearningtwofive;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class coreJavaBrushup2 {
 
@@ -33,8 +35,27 @@ public class coreJavaBrushup2 {
 		a.add("rama");
 		a.add("lakshmana");
 		a.add("bharata");
+		a.add("selenium");
+		System.out.println(a.contains("selenium"));
 		a.get(2);
 		System.out.println(a.get(2));
+		
+		System.out.println("####Array List for Loop ");
+		for ( int i =0;i<a.size();i++) {
+			System.out.println(a.get(i));
+		}
+		
+		System.out.println("####Enhanced for Loop ");
+		for(String val:a) {
+			System.out.println(val);
+			
+		}
+		System.out.println("####Array List Boolean value  ");
+		String[] names = { "rama","paul","nick"};
+		List<String> names_array= Arrays.asList(names);
+		Boolean boolean_value = names_array.contains("paul");
+		System.out.println(boolean_value);		
+		
 	}
 
 }
