@@ -1,5 +1,7 @@
 package coreJavaLearningtwofive;
 
+import java.util.ArrayList;
+
 public class coreJavaBrushup2 {
 
 	public static void main(String[] args) {
@@ -20,6 +22,19 @@ public class coreJavaBrushup2 {
 				break ;
 			}
 		}
+		System.out.println("####Printing in reverse order");
+		for (int k = numbers.length -1 ; k >= 0 ; k--) {
+			
+				System.out.println(numbers[k]);
+			
+		}
+		
+		ArrayList<String> a = new ArrayList<String>();
+		a.add("rama");
+		a.add("lakshmana");
+		a.add("bharata");
+		a.get(2);
+		System.out.println(a.get(2));
 	}
 
 }
