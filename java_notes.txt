@@ -263,6 +263,8 @@ public class main class {
 -either argument count should be different
 -either argument data type should be different
 
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\oopsCoreJava\FunctlionOverloadingExample.java
+
 *****Interview*****
 
 
@@ -325,3 +327,27 @@ Solution: Parallelized test execution using TestNG/JUnit and Selenium Grid. Prio
 Challenge: Updating the framework to support new features or technologies.
 
 Solution: Designed the framework to be modular and extensible, enabling smooth addition of new features without disrupting the existing structure.
+
+297:Method / Function Overriding 
+
+*****Interview*****
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\oopsCoreJava\ChildFunction.java
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\oopsCoreJava\ParentFunction.java
+
+299: array and their usage in java 
+container which store  mutiple value of same datatype 
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\ArrayDemo.java
+new keyword allocates memory 
+Allocate memory and then assign values 
+int[] a = new int[5];
+
+assign variable immediately 
+memory will be dynamically allocated .
+
+300:Multidimensional array 
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\MultiDimensionArrayDemo.java
+
+301 . program on multidimension array 
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\MultiDimensionArrayDemo.java
+
+303.Printing smallest number 
