@@ -351,3 +351,11 @@ I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\MultiD
 I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\MultiDimensionArrayDemo.java
 
 303.Printing smallest number 
+*****Interview*****
+2 4 5 
+3 4 7 
+1 2 9 
+print minimum number from above matrix 
+
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\InterviewMinimumNumber.java
+
