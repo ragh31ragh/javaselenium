@@ -1,3 +1,5 @@
+###########Feb 27####################
+
 20.Introduction to Java varialbles and datatypes with examples 
 I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\coreJavabasics.java
 /coreJavaLearningtwofive/src/coreJavaLearningtwofive/coreJavabasics.java
@@ -148,3 +150,11 @@ I:\Learnings\Raghavendra\gitdemo\javaselenium\src\demoPack\pyramid_excercise2.ja
 6	9	
 12	15	18	
 21	24	27	30
+###########Feb 28####################
+
+289:Interface :
+Interface will have methods , but not body 
+Classes should define and implement methods present in interface
+
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\demoPack\CentralTraffic.java
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\demoPack\AustralianTraffic.java
