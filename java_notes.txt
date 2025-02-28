@@ -359,3 +359,21 @@ print minimum number from above matrix
 
 I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\InterviewMinimumNumber.java
 
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\InterviewMinimumNumber.java
+
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\Interview_max_number_from_array.java
+
+304 : cisco interview question on arrays :
+
+2 4 5 
+3 4 7 
+1 2 9 
+
+Printing max number in min number column
+
+Step 1 : Find minimum number
+Step 2 : Identify columan of min number
+Step 3 : Find max number in identified column 
+
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\Cisco_interview_Question.java
+
