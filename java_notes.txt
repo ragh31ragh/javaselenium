@@ -220,3 +220,45 @@ Abstract class :
 vehicle example 
 I:\Learnings\Raghavendra\gitdemo\javaselenium\src\oopsCoreJava\parentClass.java
 I:\Learnings\Raghavendra\gitdemo\javaselenium\src\oopsCoreJava\childClass.java
+
+294. Practical example on typs of inheritance .
+
+Mulitple inheritances are not allowed in java
+interface it is allowed 
+class X 
+{
+//Class X members
+}
+
+class Y 
+{
+//Class Y members 
+}
+
+class Z extends X,Y
+{
+//class Z members 
+}
+
+
+class A 
+{
+int i = 10
+}
+
+class B extends A {
+int i = 20 
+}
+
+public class main class {
+	public static void main (String[] args) {
+	{
+		A a = new B()
+		webdriver driver = new FirefoxDriver();
+		System.out.println(a.i)
+	}
+}
+
+296: Function overloading 
+-either argument count should be different
+-either argument data type should be different 
