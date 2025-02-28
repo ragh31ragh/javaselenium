@@ -162,3 +162,61 @@ I:\Learnings\Raghavendra\gitdemo\javaselenium\src\demoPack\AustralianTraffic.jav
 290 : How java classes take advantage of interfaces 
 one class can implement more interfaces :
 I:\Learnings\Raghavendra\gitdemo\javaselenium\src\demoPack\ContinentalTraffic.java
+
+292. what are abstract classes ? how it is different from interfaces ?
+abstraction : hiding implementation details from user 
+only functionality will be provided to user .
+in other words , user will have the information on what object does instead of how it does it 
+
+Abstract classes and methods : 
+Class which is declared with abstract keyword is known as abstract class in java 
+
+it can have abstract (method without the body) and non abstract methods (method with the body)
+
+Abstraction classes achieve partial abstraction .
+
+Interfaces on the other had are used for 100% abstraction 
+
+
+
+
+Real life example :
+Ther is a parent class which defined aircraft body construction rules 
+
+All child classes ( different aircraft companies ) have to inherit parent class and use those 
+methods to build their own aircraft
+
+but there is a method called aircraft colour which can be unique to every child  class depending on company logo 
+
+so color method in parent class is not implemented with any body .Instead only method is defined without any body which is called abstract method
+
+if there is any method in a class which is abstact . then the class will be treated as abstract class
+
+unlike interfaces , the abstract class can have methods (concrete) which have implementation as well , So with abstract class only partial abstarction is achieved 
+
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\demoPack\ChildEmirates.java
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\demoPack\ParentAircraft.java
+
+you cannot instantiate object for abstract class 
+
+ParentAircraft b = new ParentAircraft();
+it cannot be created 
+
+*****Interview*****
+
+Interface : 
+1.Interface contains only abstract methods
+2.Access specifiers for methods in interface must be public 
+3.variables defined must be public , static , final 
+4.To implement an interface we use implements keyword
+
+Abstract class : 
+1.Abstract class can contain abstarct methods, concrete methods or both 
+2.Except private we can have any access specifier for methods in abstract class
+3.Except private variables can have any access specifiers 
+4.To implement an abstract we use extends keyword 
+
+293. Inheritance in Java 
+vehicle example 
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\oopsCoreJava\parentClass.java
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\oopsCoreJava\childClass.java
