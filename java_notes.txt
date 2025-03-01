@@ -372,8 +372,23 @@ I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\Interv
 Printing max number in min number column
 
 Step 1 : Find minimum number
-Step 2 : Identify columan of min number
+Step 2 : Identify column of min number
 Step 3 : Find max number in identified column 
 
 I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\Cisco_interview_Question.java
 
+306 : Date class concepts 
+C:\RD\Trainings\gitrepos\javaselenium\src\coreJavaLearningtwofive\dateDemo.java
+java .util package 
+
+Date d = new Date();
+//System.out.println(d.toString());
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("MMM/DD/YYYY");
+		SimpleDateFormat sdf2 = new SimpleDateFormat("EEE, MMM d, YYYY");
+		System.out.println(sdf.format(d));
+		System.out.println(sdf2.format(d));
+		
+307: calender objects in java 
+
+		
