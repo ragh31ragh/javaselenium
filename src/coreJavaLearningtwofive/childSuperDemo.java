@@ -19,6 +19,7 @@ public class childSuperDemo extends ParentSuperDemo {
 		childSuperDemo cd = new childSuperDemo();
 		cd.getStringData();
 		cd.getData();
+		
 
 	}
 	

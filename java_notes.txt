@@ -416,3 +416,16 @@ super refers to parent class
 //common method between parent and child 
 how to handle it 
 super should be the first line in constuctor.
+
+313. This keyword 
+
+C:\RD\Trainings\gitrepos\javaselenium\src\coreJavaLearningtwofive\ThisKeywordDemo.java
+this scope is at class level , not method level 
+you should write step by step code and understand .
+this refers to global variable 
+not the variable present in our local methods 
+No parent child concept in this keyword 
+
+
+314 : Static and non static importance in java 
+
