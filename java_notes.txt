@@ -391,4 +391,15 @@ Date d = new Date();
 		
 307: calender objects in java 
 
-		
+308.Constructor 
+C:\RD\Trainings\gitrepos\javaselenium\src\coreJavaLearningtwofive\ConstructDemo.java
+
+Whenever a object is created a block of code is executed .
+called constructor 
+-will not return any value
+-it should be always class name only 
+--compliler will call default /implicit construtor 
+--if we define it will call explicit construtor 
+
+309. Types of constructor .
+Parameterized constructor 
