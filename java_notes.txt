@@ -377,6 +377,8 @@ Step 3 : Find max number in identified column
 
 I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\Cisco_interview_Question.java
 
+
+###########march 1 ####################
 306 : Date class concepts 
 C:\RD\Trainings\gitrepos\javaselenium\src\coreJavaLearningtwofive\dateDemo.java
 java .util package 
@@ -464,4 +466,18 @@ final methods cannot be overridden
 final/pubic void testmethod 
 
 316 : packages and their usage in oops
+set of classes and interfaces 
+java.lang - Default - comes with java compiler inbuilt 
+(int , array etc ) 
 
+
+java.util.ArrayList 
+java.util.Hashset
+import corejava.arraydemo
+
+317 . Types of packages and how they will help in realtime 
+
+Class A can use Class B directly by creating object if both class A and B belongs to same package.
+import package.classname 
+
+318. Access modifiers
