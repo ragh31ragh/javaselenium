@@ -403,3 +403,16 @@ called constructor
 
 309. Types of constructor .
 Parameterized constructor 
+
+C:\RD\Trainings\gitrepos\javaselenium\src\coreJavaLearningtwofive\ConstructDemo.java
+
+311. Super keyword 
+C:\RD\Trainings\gitrepos\javaselenium\src\coreJavaLearningtwofive\childSuperDemo.java
+C:\RD\Trainings\gitrepos\javaselenium\src\coreJavaLearningtwofive\ParentSuperDemo.java
+
+super refers to parent class 
+
+312 . Super keyword practical usage 
+//common method between parent and child 
+how to handle it 
+super should be the first line in constuctor.
