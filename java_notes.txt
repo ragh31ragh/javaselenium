@@ -429,3 +429,20 @@ No parent child concept in this keyword
 
 314 : Static and non static importance in java 
 
+Instance varialbles ?
+local variables ?
+class variables ?
+static keyword
+static method and static variable 
+static block 
+
+C:\RD\Trainings\gitrepos\javaselenium\src\variablesRelated\StaticVar.java
+
+objects need to be created to access varaibles and methods of same class as well 
+
+creating object and creating instance both are same 
+
+instance variable no sharing 
+
+static methods will only accept static variables 
+we can call static method with class name and not object name .
