@@ -224,7 +224,7 @@ I:\Learnings\Raghavendra\gitdemo\javaselenium\src\oopsCoreJava\childClass.java
 294. Practical example on typs of inheritance .
 
 Mulitple inheritances are not allowed in java
-interface it is allowed 
+interface it is allowed - whereas multiple interface is allowed 
 class X 
 {
 //Class X members
@@ -259,7 +259,7 @@ public class main class {
 	}
 }
 
-296: Function overloading 
+296: Function /Method overloading 
 -either argument count should be different
 -either argument data type should be different
 
