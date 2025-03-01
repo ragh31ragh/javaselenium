@@ -446,3 +446,22 @@ instance variable no sharing
 
 static methods will only accept static variables 
 we can call static method with class name and not object name .
+
+315 : Final keyword 
+C:\RD\Trainings\gitrepos\javaselenium\src\coreJavaLearningtwofive\FinalDemo.java
+
+final means constant variable 
+no one can change 
+
+even class and method can be final 
+class marked as final cannot be extended .
+
+public class test 
+final class test 
+
+final methods cannot be overridden
+
+final/pubic void testmethod 
+
+316 : packages and their usage in oops
+
