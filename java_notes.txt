@@ -533,4 +533,24 @@ finally will not get executed when we stop jvm
 
 
 324  : java collections 
+java collection framework is a collection of classes and interfaces 
+which helps in storing and processing data efficiently
 
+This framework has several useful classees which have tons of useful functions
+which makes a programmer tasks super easy 
+
+List :, Set , Map 
+is an ordered collection.
+it can contain duplicate elements
+below are classes implementing list interface 
+
+-array list 
+-linked list 
+-vector 
+
+325: Array List 
+
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\ArrayListExample.java
+java.util 
+array -fixed size 
+array list - can grow dynamically 
