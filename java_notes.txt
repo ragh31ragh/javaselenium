@@ -396,8 +396,8 @@ C:\RD\Trainings\gitrepos\javaselenium\src\coreJavaLearningtwofive\ConstructDemo.
 
 Whenever a object is created a block of code is executed .
 called constructor 
--will not return any value
--it should be always class name only 
+--will not return any value
+--it should be always class name only 
 --compliler will call default /implicit construtor 
 --if we define it will call explicit construtor 
 
@@ -463,5 +463,33 @@ final methods cannot be overridden
 
 final/pubic void testmethod 
 
+
+
 316 : packages and their usage in oops
+
+###################3- Mar #################
+318.Importance of access modifiers 
+
+--public 
+--private
+--protected 
+--default 
+
+//Default - access method anywhere in  package- eventhogh we import it as package. we cannot access it outside package 
+//public - we can access across package or anywhere 
+
+
+319. Private and protected .
+
+//private : you cannot access method or varaiable outside class 
+//protected - only subclasses can access 
+
+public
+--protected(subclasses)
+--default(same package)
+--private (same class)
+
+320. Diff kind of exceptions 
+
+
 
