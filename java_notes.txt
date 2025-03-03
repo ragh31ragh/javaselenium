@@ -472,7 +472,6 @@ set of classes and interfaces
 java.lang - Default - comes with java compiler inbuilt 
 (int , array etc ) 
 
-<<<<<<< HEAD
 
 
 java.util.ArrayList 
@@ -510,6 +509,28 @@ public
 
 320. Diff kind of exceptions 
 
+lines of code will throw an error not 
+try catch 
+
+divide by zero 
+
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\exceptionDemo.java
+
+321 : mechanism to handle exceptions 
+//one try can be followed by mutliple catch blocks 
+//catch should be immediately after try block
+//arithmetic exception 
+
+322. Importanc of finally block in java 
+finally : this block executed irrespective of exception thrown or not 
+
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\exceptionDemo.java
+
+even without catch it will get executed 
+we can use it to close browser 
+
+finally will not get executed when we stop jvm
 
 
+324  : java collections 
 
