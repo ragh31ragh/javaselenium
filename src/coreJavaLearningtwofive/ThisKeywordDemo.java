@@ -6,10 +6,10 @@ public class ThisKeywordDemo {
 	
 	public void getData() {
 		int i = 3 ;
-		System.out.println(i);
-		System.out.println(this.i );
-		int b = i + this.i ;
-		System.out.println(b );
+		System.out.println(i);//3
+		System.out.println(this.i );//2
+		int b = i + this.i ;//5
+		System.out.println(b );//5
 		
 	}
 

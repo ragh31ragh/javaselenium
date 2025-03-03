@@ -11,6 +11,11 @@ public class childSuperDemo extends ParentSuperDemo {
 	public void getStringData() {
 		System.out.println(name);
 		System.out.println(super.name);
+		//QA click
+		//paul
+		//150
+		//next50
+		//250
 	}
 
 	public static void main(String[] args) {
@@ -26,6 +31,8 @@ public class childSuperDemo extends ParentSuperDemo {
 	public void getData() {
 		super.getData();
 		System.out.println("I am from child class");
+		//I am from parent class
+		//I am from child class 
 	}
 
 }
