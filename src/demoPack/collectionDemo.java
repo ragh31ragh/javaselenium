@@ -6,7 +6,7 @@ public class collectionDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a[] = {4,5,5,5,4,6,6,9};
+		int a[] = {4,5,5,5,4,6,6,9,12,14,14,14};
 		//4-3,5-3,6-2,9-1
 		//Algorithm
 		//Empty array List 
