@@ -554,3 +554,39 @@ I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\ArrayL
 java.util 
 array -fixed size 
 array list - can grow dynamically 
+
+328 : Hashset 
+
+Set : 
+//hashset, treeset, linked set
+//set will not accept duplicate values 
+//elements will be sequently stored 
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\HashsetExample.java
+
+329 : Hashset using iterator 
+HashSet<String> hs = new HashSet<String>();
+Iterator<String> it= hs.iterator();
+
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\HashsetExample.java
+
+330. Implemtation of Map Interface : 
+map 
+key value pair  
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\coreJavaLearningtwofive\HashMapDemo.java
+
+we can convert it into set using entryset method
+
+Not clear 
+
+331. Diff between hashmap and hashtable 
+hashmap is not syncrhonized and is not threadsafe.hashtable is syncronized and threadsafe 
+hashmap allows nullkeys .
+hashmap - iterator
+hashtable - enumerator 
+
+
+332.Printing unique number - amazon interview questions
+I:\Learnings\Raghavendra\gitdemo\javaselenium\src\demoPack\collectionDemo.java
+
+
+

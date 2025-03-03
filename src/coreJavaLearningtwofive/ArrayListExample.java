@@ -19,6 +19,8 @@ public class ArrayListExample {
 		System.out.println(b);
 		b.get(1);
 		System.out.println(b.contains("python"));
+		b.indexOf("Java");
+		
 		
 		
 
