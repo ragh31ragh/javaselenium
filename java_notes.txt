@@ -472,6 +472,7 @@ set of classes and interfaces
 java.lang - Default - comes with java compiler inbuilt 
 (int , array etc ) 
 
+<<<<<<< HEAD
 
 
 java.util.ArrayList 
