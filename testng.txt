@@ -1,0 +1,22 @@
+TestNG- Test New Generation
+java based unit testing tool
+
+Advantages :
+----------
+1.Test cases and test suites 
+2.Grouping of test cases 
+3.Prioritize
+4.Parameterize
+5.Parallel testing 
+6.Reports 
+
+TestNG configuration :
+-----------------------
+1.Install testng in eclipse
+2.add testng library to build path /add testng dependency in pom.xml 
+
+@Test Annotation 
+
+1.TestNG executes test cases in alphabetical order 
+2.@Test(priority=num) controls the order of execution 
+3.Once you provide priority to the test methods , then order of method is not considered

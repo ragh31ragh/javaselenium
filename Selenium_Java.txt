@@ -1,0 +1,348 @@
+-Project creation 
+maven project 
+
+
+-Create New maven project .
+-archetype.
+-maven-archetype-quickstart 
+Org.apache.maven.archetypes - maven-archetype-quickstart
+Apahe -1.5 during dec 24
+It took around 10-15 mins for new project
+
+-artifact id is project name -SeleniumFrameworkDesing
+-group id ? company - like  - rahulshettyacademy
+package  -it will be auto constructed by using above details.
+observe - src/main/java
+src/test/java
+Pom.xml
+
+It is interactive mode . Press Yes
+
+It took 20 mins to create maven project .
+
+we can publish project to maven 
+go to maven repo.
+
+Add Selenium and TestNG Dependency 
+
+driver.navigate.back
+driver.manager
+driver.geturl
+driver.close
+Thread.sleep 
+
+WebElement staticDropdown = driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency"));
+Select dropdown = new Select(staticDropdown);
+dropdown.selectByIndex(3);
+dropdown.getFirstSelectedOption().getText();
+Select dropbox = new Select(dropdown);
+
+Handling alerts using driver.switchto methods
+
+Login Page:
+https://rahulshettyacademy.com/locatorspractice/
+
+Practice Page:
+https://rahulshettyacademy.com/AutomationPractice
+
+Flight booking page 
+https://rahulshettyacademy.com/dropdownsPractise/#search.aspx?mode=search
+
+ecommerce page : 
+https://rahulshettyacademy.com/seleniumPractise/
+
+New class Fluentwait 
+the-internet.herokuapp.com 
+https://the-internet.herokuapp.com/
+
+
+Location 
+I:\Learnings\Raghavendra\2023\Introduction\src\practice\GreenKart.java
+
+
+I:\Learnings\Raghavendra\2023\Introduction\src\practice\OptimizedGreenKart.java
+
+WebDriver driver = new ChromeDriver();
+WebDriverWait w = new WebDriverWait(driver,Duration.ofSeconds(5));
+
+driver.findElement(By.xpath("//button[contains(text(),'PROCEED TO CHECKOUT')]")).click();
+w.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".promoCode")));
+driver.findElement(By.cssSelector(".promoCode")).sendKeys("rahulshettyacademy");
+w.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".promoBtn")));
+driver.findElement(By.cssSelector(".promoBtn")).click();
+		
+		
+Implicit - Readable code.
+Con - Implicit wait might hide performance issues.
+
+		
+Advantage - 
+wait applied to targeted elements only.no performance issue .
+
+Cons : 
+More code .
+
+
+There is another explicit wait mechanism type called Fluent wait
+
+Explicit wait can be achieved in 2 ways
+1.WebDrierWait 
+2.FluentWait = 10 seconds , polling 2 seconds
+Your card is accepted ( 3 secs ) Your order is being processed ( 7 secs)
+
+Confirmation 
+
+How different is from WebDriver Wait ?
+
+Fluent wait finds the web element repeatedly at regular intervals of time until timeout or till the object gets found 
+
+Unlike WebDriverWait , we need to build customised wait methods based on condition
+
+Both WebDriverWait and FluentWait class implement Wait Interface 
+
+		
+Techniques to automate Ajax calls ,child windows and iFrames 
+		
+Actions a = new Actions(driver);
+WebElement move = driver.findElement(By.cssSelector("#nav-link-accountList-nav-line-1"));
+a.moveToElement(move).build().perform();
+path	/Introduction/src/AjaxCalls/ActionsDemo.java
+		
+location	I:\Learnings\Raghavendra\2023\Introduction\src\AjaxCalls\ActionsDemo.java
+
+
+driver.findElement(By.cssSelector("a[class='blinkingText']")).click();
+Set<String> windows = driver.getWindowHandles();
+Iterator<String> it = windows.iterator();
+String parentId = it.next();
+String childId = it.next();
+driver.switchTo().window(childId);
+			
+			
+I:\Learnings\Raghavendra\2023\Introduction\src\Assignments\NestedFramesExample.java
+
+
+Real Time Exercises (end to end Programming )
+Print the link counts in the page
+https://rahulshettyacademy.com/AutomationPractice
+
+I:\Learnings\Raghavendra\2023\Introduction\src\sec11_RealTimeExamples\FindAllLinks.java
+
+		WebElement footerDriver = driver.findElement(By.id("gf-BIG"));
+		System.out.println(footerDriver.findElements(By.tagName("a")).size());
+		
+				WebElement columnDriver = footerDriver.findElement(By.xpath("//table/tbody/tr/td[1]/ul"));
+		System.out.println(columnDriver.findElements(By.tagName("a")).size());
+		
+		Set<String> abc = driver.getWindowHandles();
+		Iterator<String> it = abc.iterator();
+		
+https://www.path2usa.com/travel-companion/
+
+JavascriptExecutor js = (JavascriptExecutor) driver;
+		//js.executeScript("window.Scrollby(0,500)");
+		js.executeScript("window.scrollBy(0,800)");
+		Thread.sleep(3000);
+		js.executeScript("document.querySelector('.tableFixHead').scrollTop=5000");
+
+I:\Learnings\Raghavendra\2023\Introduction\src\sec12_scrolling\ScrollingPageAndTable.java
+
+I:\Learnings\Raghavendra\2023\Introduction\src\sec13_Misc\https_certs.java
+
+Accepting certificates : 
+		ChromeOptions options = new ChromeOptions();
+		options.setAcceptInsecureCerts(true);
+		WebDriver driver = new ChromeDriver(options);
+		
+Explore Chrome Options to set proxies ,plugins and path on Chrome Browser 
+
+108. Maximising Window and deleting cookies
+driver.manage.maximize();
+driver.manage.deleteallcookies();
+--.deletecookiename();
+--.addcookie();
+delete session cookie - user should logout.
+User should navigate to login page.
+Run this test.
+
+Taking screenshots: 
+I:\Learnings\Raghavendra\2023\Introduction\src\sec13_Misc\Screenshots.java
+
+		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(src,new File ("I:\\Learnings\\Raghavendra\\2023\\Screenshots\\test1.png"));
+		
+I:\Learnings\Raghavendra\2023\Introduction\src\sec13_Misc\FindAllBrokenLinks.java
+SoftAssert a = new SoftAssert();
+a.assertTrue(respCode < 400 , "link with text "+ link.getText()+ " broken with code "+ respCode );
+a.assertAll();
+
+Streams :
+I:\Learnings\Raghavendra\2023\Introduction\src\javaStreams\NamesStartswithA_Basic.java
+
+long c =names.stream().filter(s -> s.startsWith("a")).count();
+
+names.stream().filter(s -> s.length() > 4 ).forEach(s -> System.out.println(s));
+filter , 
+count , foreach 
+
+Stream.of("Rama", "def", "India", "Ghanika", "Hamsika").filter(s -> s.endsWith("a")).map(s -> s.toUpperCase()).forEach(s -> System.out.println(s));
+
+List<String> names1 = Arrays.asList("Abhilash", "Taylor", "Asin", "Arnold", "Aasha");
+names1.stream().filter(s -> s.startsWith("A")).sorted().map(s -> s.toUpperCase()).forEach(s -> System.out.println(s));
+
+List<String> ls = Stream.of("sita","Rama", "def", "India", "Ghanika", "Hamsika").filter(s -> s.endsWith("a")).map(s -> s.toUpperCase()).collect(Collectors.toList());
+System.out.println(ls.get(0));
+
+
+
+https://rahulshettyacademy.com/angularpractice/
+
+above element .below element. 
+top of element.below element 
+
+driver.getWindowHandles()
+
+driver.get("https://rahulshettyacademy.com/angularpractice/");
+				driver.switchTo().newWindow(WindowType.WINDOW);
+				driver.get("https://courses.rahulshettyacademy.com/courses/");
+				
+Framework 1 : TestNG
+
+XML
+Run all tests 
+Before Method - Class- Suilte
+Groups (Smoke)
+@DataProvider
+@Test (dependsOnMethods = { "OpenBrowser" })
+	@Test(groups={"Smoke"})
+Exclude tcs using regular expressions
+Mobile * 
+
+Groups has highest priority 
+@Test(groups={"Smoke"})
+
+When you use groups , other annotations will get disabled as groups are given priority 
+
+Incase we have bugs .
+
+How to exclude error test cases.
+
+
+	@Test(enabled= false)
+	
+ Listeners Interface in TestNG framework
+public class Listerners implements ITestListener{
+}
+
+Listerner java file and xml file
+In Listener file you will impletment what will happen on failure  -pass ect
+in xml file you will give details of package and class details 
+
+<suite name="TestNG Parameters Suite" parallel = "tests" thread-count = "2" >
+   <test name="Params">
+      <parameter name="val1" value="2" />
+
+Framework 2 : Learn Java Object Oriented principles needed for Framework Development.
+How TestNG Annotations help with Inheritance to remove boilerPlate code in Test 
+
+super can be used to refer to an immediate parent class instance variable.
+super can be used to invoke the immediate parent class method.
+super() can be used to invoke immediate parent class constructor.
+
+Super keyword is used only when there is inheritance in place.
+
+
+
+Section 18 : Framework Part 1 : Create Maven Project and Prepare Functional End to End Test 
+
+https://rahulshettyacademy.com/client
+Register with dummy username and password
+qatestrd@qaauto.com
+qatestrd@qaauto.com
+qatestrd@qaauto.com
+
+Qatestrd@qaauto.com123
+
+
+I:\Learnings\Raghavendra\2023\SeleniumFrameworkDesign\src\test\java\RdAutomation\SeleniumFrameworkDesign\StandaloneTest.java
+
+
+Section 19: Framework Part 2 : Design Pattern Page Object and Factory Implementation.
+
+Page Object 
+Page Factory 
+Abstract components - Reusable code 
+
+All above classes are in src/main/java
+
+Actual code in src/main/test s
+
+Section 20 : Framework Part 3 - Test Configuration Methods and Global Properties and Parallel Runs.
+
+src/main/java
+Resources
+Global properties - which browser test will run 
+GlobalData.properties 
+
+In Base Test We have initialized web driver .
+it is in src/test/java - test components s
+
+Launching and Closing application in Base Test 
+error validations 
+s
+I:\Learnings\Raghavendra\2023\SeleniumFrameworkDesign\src\test\java\RdAutomation\SeleniumFrameworkDesign\ErrorValidations.jav
+a
+
+TestNG files are kept in TestSuite folder
+we can use grouping for TCs to run 
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test parallel="tests" thread-count="4" name="ParallelTest">
+    <classes>
+      <class name="RdAutomation.SeleniumFrameworkDesign.TestComponents.BaseTest"/>
+      <class name="RdAutomation.SeleniumFrameworkDesign.ErrorValidations"/>
+      <class name="RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+Running tests in parallel s
+s
+
+Section 21 : Framework Part 4 : Test Strategy - Control Tests Execution - Run Parallel Test.
+
+Integration of Hashmap to DataProvider to send the data as one Hash object 
+
+data 
+purchaseorder.json 
+data reader.java file 
+
+Build  a utility - that will work for all tcs . that is beauty of framework.
+
+Run the test .
+
+Here data driven from external file .and parameterized using TestNG.
+
+Sending data from Json file 
+
+How to create Screenshot Utility in BaseTest class for catching Failed tests.
+
+IN Base test . capturing screenshot logic is written
+
+Section 22 : Framework Part 5 : Extent HTML Reports and TEST NG Listeners & ThreadSafe Execution 
+
+Framework ##
+Different componenets we have in automation framework 
+
+--test data 
+--test reporting 
+--unit test [testng]
+--Utility [Common practices we can use across diff projects like capturing screenshot,waiting for specific web call
+--Build Tool
+--Runnin tool - CI - Jenkins 
+--Version Control - Jenkins 
+--
