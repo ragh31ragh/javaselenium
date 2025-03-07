@@ -20,3 +20,69 @@ TestNG configuration :
 1.TestNG executes test cases in alphabetical order 
 2.@Test(priority=num) controls the order of execution 
 3.Once you provide priority to the test methods , then order of method is not considered
+4.Priority can be random numbers( consecutive numbers are not required)
+5.Default priority is 0 
+6.Negative values are also allowed for priority 
+7.Only if @Test annotation is present test will get executed 
+
+methods name 
+we can use include and exclude tags 
+use regular expressions to include or exclude tcs * 
+@Test(groups={"Smoke"}
+
+<groups>
+  			<run>
+  				<include name = "Smoke"></include>
+  			</run>
+  		</groups>
+
+
+
+BeforeAndAfterSuite
+Before and After Class
+Before and After Method 
+
+@Test(dependsOnMethods={"WebLoginCarLoan"})
+@Test(dependsOnMethods={"WebLoginCarLoan","AddoneMore"})
+
+
+TestNG will skip the testcase.
+Incase we have bugs .
+
+When the test fails we need to take screenshot.
+TestNG has  intelligence , it will direct code to Listeners.
+Create Listeners class
+
+//ITestListener interface which implements TestNG Listeners
+public class Listerners implements ITestListener{
+}
+
+Add unimplemented methods which TestNG exposes.
+
+Listeners - > Listens to our testcase
+
+on failure :
+//take screenshot
+//print response.
+
+On success :
+successfully executed - listeners pass code 
+
+We need to configure xml , where listeners are located.
+else it wont run
+
+
+create new xml as well
+
+Add listener after suite name.
+packagename.listeners.
+
+Run test ng.
+
+Put something in failure code 
+it won't publish message 
+
+<suite name="TestNG Parameters Suite" parallel = "tests" thread-count = "2" >
+   <test name="Params">
+      <parameter name="val1" value="2" />
+

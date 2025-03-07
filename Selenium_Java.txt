@@ -346,3 +346,13 @@ Different componenets we have in automation framework
 --Runnin tool - CI - Jenkins 
 --Version Control - Jenkins 
 --
+
+
+Xpath :
+#inputUsernameinputPassword
+id 
+name 
+"tagname[attribute='value']"
+WebElement submitButton = driver.findElement(By.cssSelector("button[type='submit'][name='login']")); 
+
+submitButton.click();
